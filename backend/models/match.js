@@ -3,9 +3,10 @@ const mongoose = require('mongoose');
 
 //generate schema
 const matchSchema = mongoose.Schema({
-    teamName: String,
-    dateOfFoundation : String,
-    description : String
+    teamOne : String,
+    teamtwo : String,
+    scoreOne : String,
+    scoreTwo : String
 });
 
 // generate model user
